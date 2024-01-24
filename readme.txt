@@ -23,5 +23,10 @@ Git 最强大的地方：回退
     $ git reset HEAD readme.txt     #撤销暂存操作
     $ git reset --hard HEAD^        #回退or回溯至某版本（用commit的id或者HEAD）
 
-    
+在github上面搭建远程服务器
+    在github上设置token
+    在github上创建一个新仓库repository
+    github上默认的branch从main改为master（虽然不知道为什么）
+    $ git remote add origin https://<token>@github.com/<Username>/<REPO.git>
+    $ git push -u origin master
 
