@@ -1,6 +1,6 @@
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
-create a repository
+创建一个仓库create a repository
     $ mkdir learngit 
     $ cd learngit  #创建一个名为learngit的目录
     $ pwd   #显示当前目录
@@ -12,5 +12,8 @@ create a repository
     $ git commit -m "xxx"  #提交，-m后带注释
     $ git status  #工作区状态
     $ git diff    #查看修改内容
+    $ git log     #显示所有的提交日志
+        --pretty=oneline  #参数，按行显示
 
-Git 最强大的地方：回溯
+Git 最强大的地方：回退
+    $ git reset --hard HEAD^
