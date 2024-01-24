@@ -19,10 +19,9 @@ Git is free software distributed under the GPL.
 
 Git 最强大的地方：回退
     $ git checkout -- "readme.txt"  #撤销readme.txt中的修改（一定要加文件名哦）
-        有暂存，撤销至暂存；无暂存，撤销至版本库最新版本
+        有暂存，撤销至暂存；无暂存，撤销/恢复至版本库最新版本
     $ git reset HEAD readme.txt     #撤销暂存操作
     $ git reset --hard HEAD^        #回退or回溯至某版本（用commit的id或者HEAD）
-
 
     
 
